@@ -1,0 +1,47 @@
+cv::Rect get_pulp_roi(const cv::Mat& img)
+{
+    /* to do */
+    /* 输入原始图片，根据颜色空间信息，定位牙髓室区域 */
+
+
+    // 将图像从BGR颜色空间转换为HSV颜色空间
+    cv::Mat hsv;
+    cv::cvtColor(img, hsv, cv::COLOR_BGR2HSV);
+
+    // 正确设置黄色的HSV范围
+    cv::Scalar lower_yellow(20, 100, 100);  // 黄色的下限
+    cv::Scalar upper_yellow(30, 255, 255);  // 黄色的上限
+
+    // 创建掩码
+    cv::Mat mask;
+    cv::inRange(hsv, lower_yellow, upper_yellow, mask);
+
+    // 显示黄色掩码
+    cv::imshow("Yellow Mask", mask);
+    waitKey(0);
+
+    // 使用掩码提取原图中的黄色区域，便于可视化
+    cv::Mat yellow_region;
+    cv::bitwise_and(img, img, yellow_region, mask);
+    cv::imshow("Yellow Region Extracted", yellow_region);
+    waitKey(0);
+
+    // 找到轮廓
+    std::vector<std::vector<cv::Point>> contours;
+    cv::findContours(mask, contours, cv::RETR_EXTERNAL, cv::CHAIN_APPROX_SIMPLE);
+
+    // 找到最大轮廓
+    if (contours.empty()) {
+        return cv::Rect();  // 如果没有找到轮廓，返回空的矩形
+    }
+
+    std::vector<cv::Point> max_contour = *std::max_element(contours.begin(), contours.end(),
+        [](const std::vector<cv::Point>& a, const std::vector<cv::Point>& b) {
+            return cv::contourArea(a) < cv::contourArea(b);
+        });
+
+    // 给定边界框
+    cv::Rect bbox = cv::boundingRect(max_contour);
+
+    return bbox;
+}

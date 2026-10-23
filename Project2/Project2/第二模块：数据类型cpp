@@ -1,0 +1,52 @@
+#include<iostream>
+using namespace std;
+#include<string>；
+
+int main55()
+{
+	//整型(字节数）: short(2) int(4) long(4) long long(8）
+	//关键字：sizeof可直接求出上述四个类型的占用内存大小，语法：sizeof（数据类型 或 变量）
+	//实型(浮点型）：float为单精度，double为双精度，注意float表示数字最后要加上f,double不用加
+	//字符型;char ch=h后用单引号，且引号内部只能有一个字符，可记住相应ASCII代码，ch前加上(int)即可显示
+	//转义字符：\n为换行符号（C语言中无endl时使用，\\表示一个斜杠！！！\t表示水平制表，便于对齐，表示8个字符，会自动生成空格补齐
+	//字符串：①C语言：char 字符串名[]=后加双引号（中括号不能忘！！！） ②C++语言：string 字符串名=双引号  注意！！！C++须在最开始定义头文件字符串后面才可正常运行！！！
+	//布尔类型：bool   flag=true/false 分别代表1和0，即真和假
+	//数据输入：输入上述几种类型数据，均类似，注意string加上文件头即可，以下以整型为例
+//整型数据的输入
+int a=0;
+cout<<"给a赋值:"<<endl;
+cin>>a;
+cout<<"整型变量a="<<a<<endl;
+	
+	float f1 = 3.141592636f;
+	double d1 = 3.141592635;
+
+	int num = 114514;
+	char ch = 'a';
+
+	char str[] = "114514";
+	string str2 = "415411";
+
+	bool flag = true;
+
+	cout << ch<< endl;
+	cout << (int)ch << endl;
+		cout << "int占用内存空间为" << sizeof(int) << endl;
+		cout << "f1=" << f1 << endl;
+		cout << "d1=" << d1 << endl;
+		cout << "aaa\thello world"<<endl;
+		cout << "aaaa\thello world"<<endl;
+		cout << "aaaaa\thello world"<<endl;
+		cout << str << endl;
+		cout << str2 << endl;
+		cout << flag << endl;
+		
+
+
+
+
+
+		system("pause");
+
+	return 0;
+}

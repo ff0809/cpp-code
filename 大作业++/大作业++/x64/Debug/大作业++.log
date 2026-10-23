@@ -1,0 +1,387 @@
+﻿  1.cpp
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(983,44): error C3878: 语法错误:“simple-type-specifier”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(983,44):
+      缺少以下项之一: '(' '{' ?
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(83,27):
+      此诊断出现在编译器生成的函数“cv::Complex<_Tp>::operator cv::Complex<T2>(void) const”中
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(983,44): error C3878: 语法错误:“expression”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(83,27):
+      此诊断出现在编译器生成的函数“cv::Complex<_Tp>::operator cv::Complex<T2>(void) const”中
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(983,48): error C2760: 语法错误: 此处出现意外的“)”；应为“;”
+  (编译源文件“1.cpp”)
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(83,27):
+      此诊断出现在编译器生成的函数“cv::Complex<_Tp>::operator cv::Complex<T2>(void) const”中
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(983,48): error C3878: 语法错误:“jump-statement”后出现意外标记“)”
+  (编译源文件“1.cpp”)
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(83,27):
+      此诊断出现在编译器生成的函数“cv::Complex<_Tp>::operator cv::Complex<T2>(void) const”中
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(983,71): error C3878: 语法错误:“simple-type-specifier”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(983,71):
+      缺少以下项之一: '(' '{' ?
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(83,27):
+      此诊断出现在编译器生成的函数“cv::Complex<_Tp>::operator cv::Complex<T2>(void) const”中
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(983,71): error C3878: 语法错误:“expression”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(83,27):
+      此诊断出现在编译器生成的函数“cv::Complex<_Tp>::operator cv::Complex<T2>(void) const”中
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(983,75): error C2760: 语法错误: 此处出现意外的“)”；应为“;”
+  (编译源文件“1.cpp”)
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(83,27):
+      此诊断出现在编译器生成的函数“cv::Complex<_Tp>::operator cv::Complex<T2>(void) const”中
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(983,75): error C3878: 语法错误:“expression-statement”后出现意外标记“)”
+  (编译源文件“1.cpp”)
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(83,27):
+      此诊断出现在编译器生成的函数“cv::Complex<_Tp>::operator cv::Complex<T2>(void) const”中
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1171,25): error C2065: “saturate_cast”: 未声明的标识符
+  (编译源文件“1.cpp”)
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(171,29):
+      此诊断出现在编译器生成的函数“cv::Point_<_Tp>::operator cv::Point_<_Tp2>(void) const”中
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1171,43): error C3878: 语法错误:“simple-type-specifier”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1171,43):
+      缺少以下项之一: '(' '{' ?
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(171,29):
+      此诊断出现在编译器生成的函数“cv::Point_<_Tp>::operator cv::Point_<_Tp2>(void) const”中
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1171,43): error C3878: 语法错误:“expression”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(171,29):
+      此诊断出现在编译器生成的函数“cv::Point_<_Tp>::operator cv::Point_<_Tp2>(void) const”中
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1171,46): error C2760: 语法错误: 此处出现意外的“)”；应为“;”
+  (编译源文件“1.cpp”)
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(171,29):
+      此诊断出现在编译器生成的函数“cv::Point_<_Tp>::operator cv::Point_<_Tp2>(void) const”中
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1171,46): error C3878: 语法错误:“jump-statement”后出现意外标记“)”
+  (编译源文件“1.cpp”)
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(171,29):
+      此诊断出现在编译器生成的函数“cv::Point_<_Tp>::operator cv::Point_<_Tp2>(void) const”中
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1171,49): error C2065: “saturate_cast”: 未声明的标识符
+  (编译源文件“1.cpp”)
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(171,29):
+      此诊断出现在编译器生成的函数“cv::Point_<_Tp>::operator cv::Point_<_Tp2>(void) const”中
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1171,67): error C3878: 语法错误:“simple-type-specifier”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1171,67):
+      缺少以下项之一: '(' '{' ?
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(171,29):
+      此诊断出现在编译器生成的函数“cv::Point_<_Tp>::operator cv::Point_<_Tp2>(void) const”中
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1171,67): error C3878: 语法错误:“expression”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(171,29):
+      此诊断出现在编译器生成的函数“cv::Point_<_Tp>::operator cv::Point_<_Tp2>(void) const”中
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1171,70): error C2760: 语法错误: 此处出现意外的“)”；应为“;”
+  (编译源文件“1.cpp”)
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(171,29):
+      此诊断出现在编译器生成的函数“cv::Point_<_Tp>::operator cv::Point_<_Tp2>(void) const”中
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1171,70): error C3878: 语法错误:“expression-statement”后出现意外标记“)”
+  (编译源文件“1.cpp”)
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(171,29):
+      此诊断出现在编译器生成的函数“cv::Point_<_Tp>::operator cv::Point_<_Tp2>(void) const”中
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1183,12): error C2065: “saturate_cast”: 未声明的标识符
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1183,29): error C3878: 语法错误:“simple-type-specifier”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1183,29):
+      缺少以下项之一: '(' '{' ?
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1183,29): error C3878: 语法错误:“expression”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1183,46):
+      正在分析此处的简历
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1183,46): error C2760: 语法错误: 此处出现意外的“)”；应为“;”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1183,46): error C3878: 语法错误:“jump-statement”后出现意外标记“)”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1224,11): error C2065: “saturate_cast”: 未声明的标识符
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1224,28): error C3878: 语法错误:“simple-type-specifier”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1224,28):
+      缺少以下项之一: '(' '{' ?
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1224,28): error C3878: 语法错误:“expression”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1224,37): error C2760: 语法错误: 此处出现意外的“)”；应为“;”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1224,37): error C3878: 语法错误:“expression-statement”后出现意外标记“)”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1225,11): error C2065: “saturate_cast”: 未声明的标识符
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1225,28): error C3878: 语法错误:“simple-type-specifier”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1225,28):
+      缺少以下项之一: '(' '{' ?
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1225,28): error C3878: 语法错误:“expression”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1225,37): error C2760: 语法错误: 此处出现意外的“)”；应为“;”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1225,37): error C3878: 语法错误:“expression-statement”后出现意外标记“)”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1232,11): error C2065: “saturate_cast”: 未声明的标识符
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1232,28): error C3878: 语法错误:“simple-type-specifier”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1232,28):
+      缺少以下项之一: '(' '{' ?
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1232,28): error C3878: 语法错误:“expression”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1232,37): error C2760: 语法错误: 此处出现意外的“)”；应为“;”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1232,37): error C3878: 语法错误:“expression-statement”后出现意外标记“)”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1233,11): error C2065: “saturate_cast”: 未声明的标识符
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1233,28): error C3878: 语法错误:“simple-type-specifier”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1233,28):
+      缺少以下项之一: '(' '{' ?
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1233,28): error C3878: 语法错误:“expression”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1233,37): error C2760: 语法错误: 此处出现意外的“)”；应为“;”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1233,37): error C3878: 语法错误:“expression-statement”后出现意外标记“)”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1240,11): error C2065: “saturate_cast”: 未声明的标识符
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1240,28): error C3878: 语法错误:“simple-type-specifier”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1240,28):
+      缺少以下项之一: '(' '{' ?
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1240,28): error C3878: 语法错误:“expression”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1240,37): error C2760: 语法错误: 此处出现意外的“)”；应为“;”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1240,37): error C3878: 语法错误:“expression-statement”后出现意外标记“)”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1241,11): error C2065: “saturate_cast”: 未声明的标识符
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1241,28): error C3878: 语法错误:“simple-type-specifier”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1241,28):
+      缺少以下项之一: '(' '{' ?
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1241,28): error C3878: 语法错误:“expression”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1241,37): error C2760: 语法错误: 此处出现意外的“)”；应为“;”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1241,37): error C3878: 语法错误:“expression-statement”后出现意外标记“)”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1248,11): error C2065: “saturate_cast”: 未声明的标识符
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1248,28): error C3878: 语法错误:“simple-type-specifier”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1248,28):
+      缺少以下项之一: '(' '{' ?
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1248,28): error C3878: 语法错误:“expression”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1248,37): error C2760: 语法错误: 此处出现意外的“)”；应为“;”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1248,37): error C3878: 语法错误:“expression-statement”后出现意外标记“)”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1249,11): error C2065: “saturate_cast”: 未声明的标识符
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1249,28): error C3878: 语法错误:“simple-type-specifier”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1249,28):
+      缺少以下项之一: '(' '{' ?
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1249,28): error C3878: 语法错误:“expression”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1249,37): error C2760: 语法错误: 此处出现意外的“)”；应为“;”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1249,37): error C3878: 语法错误:“expression-statement”后出现意外标记“)”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1256,11): error C2065: “saturate_cast”: 未声明的标识符
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1256,28): error C3878: 语法错误:“simple-type-specifier”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1256,28):
+      缺少以下项之一: '(' '{' ?
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1256,28): error C3878: 语法错误:“expression”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1256,37): error C2760: 语法错误: 此处出现意外的“)”；应为“;”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1256,37): error C3878: 语法错误:“expression-statement”后出现意外标记“)”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1257,11): error C2065: “saturate_cast”: 未声明的标识符
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1257,28): error C3878: 语法错误:“simple-type-specifier”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1257,28):
+      缺少以下项之一: '(' '{' ?
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1257,28): error C3878: 语法错误:“expression”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1257,37): error C2760: 语法错误: 此处出现意外的“)”；应为“;”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1257,37): error C3878: 语法错误:“expression-statement”后出现意外标记“)”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1264,11): error C2065: “saturate_cast”: 未声明的标识符
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1264,28): error C3878: 语法错误:“simple-type-specifier”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1264,28):
+      缺少以下项之一: '(' '{' ?
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1264,28): error C3878: 语法错误:“expression”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1264,37): error C2760: 语法错误: 此处出现意外的“)”；应为“;”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1264,37): error C3878: 语法错误:“expression-statement”后出现意外标记“)”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1265,11): error C2065: “saturate_cast”: 未声明的标识符
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1265,28): error C3878: 语法错误:“simple-type-specifier”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1265,28):
+      缺少以下项之一: '(' '{' ?
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1265,28): error C3878: 语法错误:“expression”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1265,37): error C2760: 语法错误: 此处出现意外的“)”；应为“;”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1265,37): error C3878: 语法错误:“expression-statement”后出现意外标记“)”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1290,25): error C2065: “saturate_cast”: 未声明的标识符
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1290,42): error C3878: 语法错误:“simple-type-specifier”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1290,42):
+      缺少以下项之一: '(' '{' ?
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1290,42): error C3878: 语法错误:“expression”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1290,53): error C2760: 语法错误: 此处出现意外的“)”；应为“;”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1290,53): error C3878: 语法错误:“jump-statement”后出现意外标记“)”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1290,56): error C2065: “saturate_cast”: 未声明的标识符
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1290,73): error C3878: 语法错误:“simple-type-specifier”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1290,73):
+      缺少以下项之一: '(' '{' ?
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1290,73): error C3878: 语法错误:“expression”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1290,84): error C2760: 语法错误: 此处出现意外的“)”；应为“;”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1290,84): error C3878: 语法错误:“expression-statement”后出现意外标记“)”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1296,25): error C2065: “saturate_cast”: 未声明的标识符
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1296,42): error C3878: 语法错误:“simple-type-specifier”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1296,42):
+      缺少以下项之一: '(' '{' ?
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1296,42): error C3878: 语法错误:“expression”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1296,53): error C2760: 语法错误: 此处出现意外的“)”；应为“;”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1296,53): error C3878: 语法错误:“jump-statement”后出现意外标记“)”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1296,56): error C2065: “saturate_cast”: 未声明的标识符
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1296,73): error C3878: 语法错误:“simple-type-specifier”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+      D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1296,73):
+      缺少以下项之一: '(' '{' ?
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1296,73): error C3878: 语法错误:“expression”后出现意外标记“>”
+  (编译源文件“1.cpp”)
+  
+D:\程序设计\OPENCV3.4.1\opencv\build\include\opencv2\core\types.hpp(1296,73): error C1003: 错误计数超过 100；正在停止编译
+  (编译源文件“1.cpp”)
+  

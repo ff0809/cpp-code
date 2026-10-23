@@ -1,0 +1,9 @@
+﻿  第七部分：指针.cpp
+D:\程序设计\Project2\Project2\第七部分：指针.cpp(41,18): warning C4311: “类型强制转换”: 从“int *”到“int”的指针截断
+D:\程序设计\Project2\Project2\第七部分：指针.cpp(41,18): warning C4302: “类型强制转换”: 从“int *”到“int”截断
+D:\程序设计\Project2\Project2\第七部分：指针.cpp(42,19): warning C4311: “类型强制转换”: 从“int *”到“int”的指针截断
+D:\程序设计\Project2\Project2\第七部分：指针.cpp(42,19): warning C4302: “类型强制转换”: 从“int *”到“int”截断
+  第四部分：程序流程结构.cpp
+D:\程序设计\Project2\Project2\第四部分：程序流程结构.cpp(54,23): warning C4101: “d”: 未引用的局部变量
+  正在生成代码...
+  Project2.vcxproj -> D:\程序设计\Project2\x64\Debug\Project2.exe

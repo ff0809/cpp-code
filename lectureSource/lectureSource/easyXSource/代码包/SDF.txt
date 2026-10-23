@@ -1,0 +1,81 @@
+// SDF 直线
+void SDF_Line::draw(int x1, int y1, int x2, int y2, COLORREF color, int thickness)
+{
+    SetWorkingImage(buffer);
+
+    // 计算直线的方向向量
+    float dx = x2 - x1;
+    float dy = y2 - y1;
+    float length = sqrt(dx * dx + dy * dy);
+    dx /= length;
+    dy /= length;
+
+    // 遍历缓冲区中的每个像素
+    for (int y = 0; y < buffer->getheight(); ++y)
+    {
+        for (int x = 0; x < buffer->getwidth(); ++x)
+        {
+            // 计算当前像素到直线的距离
+            float px = x - x1;
+            float py = y - y1;
+            float proj = px * dx + py * dy;
+            float dist;
+            if (proj < 0)
+            {
+                dist = sqrt(px * px + py * py);
+            }
+            else if (proj > length)
+            {
+                float qx = x - x2;
+                float qy = y - y2;
+                dist = sqrt(qx * qx + qy * qy);
+            }
+            else
+            {
+                dist = fabs(px * dy - py * dx);
+            }
+
+            // 根据距离计算颜色
+            float alpha = 1.0f - dist / (thickness / 2.0f);
+            if (alpha > 0)
+            {
+                alpha = min(alpha, 1.0f);
+                COLORREF pixelColor = getpixel(x, y);
+                int r = GetRValue(pixelColor) * (1 - alpha) + GetRValue(color) * alpha;
+                int g = GetGValue(pixelColor) * (1 - alpha) + GetGValue(color) * alpha;
+                int b = GetBValue(pixelColor) * (1 - alpha) + GetBValue(color) * alpha;
+                putpixel(x, y, RGB(r, g, b));
+            }
+        }
+    }
+}
+
+
+
+// SDF 圆
+void SDF_Circle::draw(int center_x, int center_y, COLORREF color, int radius)
+{
+    SetWorkingImage(buffer);
+
+    // 遍历缓冲区中的每个像素
+    for (int y = 0; y < buffer->getheight(); ++y)
+    {
+        for (int x = 0; x < buffer->getwidth(); ++x)
+        {
+            // 计算当前像素到圆心的距离
+            float dist = sqrt((x - center_x) * (x - center_x) + (y - center_y) * (y - center_y));
+
+            // 根据距离计算颜色
+            float alpha = 1.0f - (dist - radius) / 1.0f;
+            if (alpha > 0)
+            {
+                alpha = min(alpha, 1.0f);
+                COLORREF pixelColor = getpixel(x, y);
+                int r = GetRValue(pixelColor) * (1 - alpha) + GetRValue(color) * alpha;
+                int g = GetGValue(pixelColor) * (1 - alpha) + GetGValue(color) * alpha;
+                int b = GetBValue(pixelColor) * (1 - alpha) + GetBValue(color) * alpha;
+                putpixel(x, y, RGB(r, g, b));
+            }
+        }
+    }
+}
